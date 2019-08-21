@@ -8,7 +8,8 @@ public class ClubBouncer {
     if(onGuestList || age >= 21 || (gender.equals("F") && allure >= 8)) {
       System.out.println("You are allowed to enter the club. ");
     }
-    System.out.println("This won't compile i bet");
+    System.out.println("This won't compile i bet"); /*Won't compile because the else needs to come
+     right after the if statement ends*/
     else {
       System.out.println("You are not allowed to enter the club. ");
     }
